@@ -1,0 +1,14 @@
+# 语言
+language: node_js
+# 版本,这里指定的是最新的lts版
+node_js: lts/*
+# 要最新的就行，所以克隆最近的一次commit
+git:
+  depth: 1
+# 安装
+install: yarn
+# 指定了缓存的内容，这里是yarn安装的东西，既node_modules
+cache: yarn
+# build
+script: yarn build
+# build成功后开始部署到服务器上
