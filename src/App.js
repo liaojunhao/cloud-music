@@ -10,6 +10,7 @@ function App() {
         <p>
           终于自动化部署成功了！AAA
         </p>
+        <p>删除旧build目录测试</p>
         <a
           className="App-link"
           href="https://reactjs.org"
